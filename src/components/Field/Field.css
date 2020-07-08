@@ -1,0 +1,30 @@
+.Field {
+    border-collapse: collapse;
+}
+
+.Field__cell {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.Field__cell-default {
+    background-color: #fff;
+}
+
+.Field__cell-ship {
+    background-color: blue;
+}
+
+.Field__cell-hitted {
+    background-color: red;
+}
+
+.Field__cell-missed {
+    background-color: grey;
+}
+
+.Field__cell-destroyed {
+    background-color: brown;
+}
